@@ -132,6 +132,8 @@ class EditCoursePage extends React.Component {
           ? courseRun.expected_program_name : '',
         external_key: courseRun.external_key ? courseRun.external_key : '',
         go_live_date: isValidDate(courseRun.go_live_date) ? courseRun.go_live_date : null,
+        upgrade_deadline_override: isValidDate(courseRun.upgrade_deadline_override)
+          ? courseRun.upgrade_deadline_override : null,
         key: courseRun.key,
         max_effort: courseRun.max_effort ? courseRun.max_effort : null,
         min_effort: courseRun.min_effort ? courseRun.min_effort : null,
@@ -316,6 +318,7 @@ class EditCoursePage extends React.Component {
       key: courseRun.key,
       start: courseRun.start,
       end: courseRun.end,
+      upgrade_deadline_override: courseRun.seats.length > 0 ? courseRun.seats[0].upgrade_deadline : null,
       expected_program_type: courseRun.expected_program_type,
       expected_program_name: courseRun.expected_program_name,
       external_key: courseRun.external_key,

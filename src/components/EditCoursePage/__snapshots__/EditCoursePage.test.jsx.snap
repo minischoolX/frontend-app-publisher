@@ -287,6 +287,7 @@ exports[`EditCoursePage renders page correctly with courseInfo 1`] = `
                 "transcript_languages": Array [
                   "en-us",
                 ],
+                "upgrade_deadline_override": "2019-05-10T00:00:00Z",
                 "weeks_to_complete": 100,
               },
               Object {
@@ -312,6 +313,7 @@ exports[`EditCoursePage renders page correctly with courseInfo 1`] = `
                 "transcript_languages": Array [
                   "en-us",
                 ],
+                "upgrade_deadline_override": "2019-05-10T00:00:00Z",
                 "weeks_to_complete": 100,
               },
             ],
@@ -401,6 +403,7 @@ exports[`EditCoursePage renders page correctly with courseInfo 1`] = `
             "transcript_languages": Array [
               "en-us",
             ],
+            "upgrade_deadline_override": null,
             "weeks_to_complete": "100",
           },
           Object {
@@ -426,6 +429,7 @@ exports[`EditCoursePage renders page correctly with courseInfo 1`] = `
             "transcript_languages": Array [
               "en-us",
             ],
+            "upgrade_deadline_override": null,
             "weeks_to_complete": "100",
           },
         ]
@@ -484,6 +488,7 @@ exports[`EditCoursePage renders page correctly with courseInfo 1`] = `
               "transcript_languages": Array [
                 "en-us",
               ],
+              "upgrade_deadline_override": null,
               "weeks_to_complete": "100",
             },
             Object {
@@ -509,6 +514,7 @@ exports[`EditCoursePage renders page correctly with courseInfo 1`] = `
               "transcript_languages": Array [
                 "en-us",
               ],
+              "upgrade_deadline_override": null,
               "weeks_to_complete": "100",
             },
           ],
@@ -670,6 +676,7 @@ exports[`EditCoursePage renders page correctly with courseInfo and courseOptions
                 "transcript_languages": Array [
                   "en-us",
                 ],
+                "upgrade_deadline_override": "2019-05-10T00:00:00Z",
                 "weeks_to_complete": 100,
               },
               Object {
@@ -695,6 +702,7 @@ exports[`EditCoursePage renders page correctly with courseInfo and courseOptions
                 "transcript_languages": Array [
                   "en-us",
                 ],
+                "upgrade_deadline_override": "2019-05-10T00:00:00Z",
                 "weeks_to_complete": 100,
               },
             ],
@@ -1067,6 +1075,7 @@ exports[`EditCoursePage renders page correctly with courseInfo and courseOptions
             "transcript_languages": Array [
               "en-us",
             ],
+            "upgrade_deadline_override": null,
             "weeks_to_complete": "100",
           },
           Object {
@@ -1092,6 +1101,7 @@ exports[`EditCoursePage renders page correctly with courseInfo and courseOptions
             "transcript_languages": Array [
               "en-us",
             ],
+            "upgrade_deadline_override": null,
             "weeks_to_complete": "100",
           },
         ]
@@ -1150,6 +1160,7 @@ exports[`EditCoursePage renders page correctly with courseInfo and courseOptions
               "transcript_languages": Array [
                 "en-us",
               ],
+              "upgrade_deadline_override": null,
               "weeks_to_complete": "100",
             },
             Object {
@@ -1175,6 +1186,7 @@ exports[`EditCoursePage renders page correctly with courseInfo and courseOptions
               "transcript_languages": Array [
                 "en-us",
               ],
+              "upgrade_deadline_override": null,
               "weeks_to_complete": "100",
             },
           ],
@@ -1503,6 +1515,7 @@ exports[`EditCoursePage renders page correctly with courseInfo, courseOptions, a
                 "transcript_languages": Array [
                   "en-us",
                 ],
+                "upgrade_deadline_override": "2019-05-10T00:00:00Z",
                 "weeks_to_complete": 100,
               },
               Object {
@@ -1528,6 +1541,7 @@ exports[`EditCoursePage renders page correctly with courseInfo, courseOptions, a
                 "transcript_languages": Array [
                   "en-us",
                 ],
+                "upgrade_deadline_override": "2019-05-10T00:00:00Z",
                 "weeks_to_complete": 100,
               },
             ],
@@ -1968,6 +1982,7 @@ exports[`EditCoursePage renders page correctly with courseInfo, courseOptions, a
             "transcript_languages": Array [
               "en-us",
             ],
+            "upgrade_deadline_override": null,
             "weeks_to_complete": "100",
           },
           Object {
@@ -1993,6 +2008,7 @@ exports[`EditCoursePage renders page correctly with courseInfo, courseOptions, a
             "transcript_languages": Array [
               "en-us",
             ],
+            "upgrade_deadline_override": null,
             "weeks_to_complete": "100",
           },
         ]
@@ -2051,6 +2067,7 @@ exports[`EditCoursePage renders page correctly with courseInfo, courseOptions, a
               "transcript_languages": Array [
                 "en-us",
               ],
+              "upgrade_deadline_override": null,
               "weeks_to_complete": "100",
             },
             Object {
@@ -2076,6 +2093,7 @@ exports[`EditCoursePage renders page correctly with courseInfo, courseOptions, a
               "transcript_languages": Array [
                 "en-us",
               ],
+              "upgrade_deadline_override": null,
               "weeks_to_complete": "100",
             },
           ],
