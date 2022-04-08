@@ -10,7 +10,7 @@ import { courseSubmitRun } from '../../data/actions/courseSubmitInfo';
 import FieldLabel from '../FieldLabel';
 import {
   courseRunIsArchived, localTimeZone, formatDate, isSafari, getDateWithDashes,
-  getDateWithSlashes, isNonExemptChanged, isPristine, hasMastersTrack, jsonDeepEqual,
+  getDateWithSlashes, isNonExemptChanged, isPristine, hasMastersTrack, jsonDeepEqual, utcTimeZone,
 } from '../../utils';
 import Pill from '../Pill';
 import RenderInputTextField from '../RenderInputTextField';
@@ -288,6 +288,16 @@ class CollapsibleCourseRun extends React.Component {
                 helpText={courseDateEditHelp}
                 disabled
               />
+              <Field
+                name={`${courseId}.upgrade_deadline_override`}
+                type="date"
+                component={DateTimeField}
+                dateLabel="Upgrade deadline override date"
+                timeLabel={`Upgrade deadline override time (${utcTimeZone})`}
+                utcTimeZone
+                helpText={courseDateEditHelp}
+                disabled={!administrator || disabled}
+              />
             </div>
           )
           // date inputs for all browsers besides safari
@@ -332,6 +342,16 @@ class CollapsibleCourseRun extends React.Component {
                 timeLabel={`End time (${localTimeZone})`}
                 helpText={courseDateEditHelp}
                 disabled
+              />
+              <Field
+                name={`${courseId}.upgrade_deadline_override`}
+                type="date"
+                component={DateTimeField}
+                dateLabel="Upgrade deadline override date"
+                timeLabel={`Upgrade deadline override time (${utcTimeZone})`}
+                utcTimeZone
+                helpText={courseDateEditHelp}
+                disabled={!administrator || disabled}
               />
             </div>
           )}
